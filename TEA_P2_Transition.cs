@@ -217,7 +217,10 @@ namespace SplatoonScriptsOfficial.Duties.Shadowbringers
                 {
                     SetElementPosition(Indicator_a, set.Position.X, set.Position.Z, set.Position.Y);
                     MarkBaitTether(Indicator_a, 1);
-                    Indicator_b.Enabled = true;
+                    Indicator_a.Enabled = true;
+                }
+                if (BlastCount == 4)
+                {
                     SetElementPosition(Indicator_b, set.Position.X, set.Position.Z, set.Position.Y);
                     MarkBaitTether(Indicator_b, 2);
                     Indicator_b.Enabled = true;
@@ -227,6 +230,9 @@ namespace SplatoonScriptsOfficial.Duties.Shadowbringers
                 {
                     SetElementPosition(Indicator_a, set.Position.X, set.Position.Z, set.Position.Y);
                     MarkBaitTether(Indicator_a, 3);
+                }
+                if (BlastCount == 7)
+                {
                     SetElementPosition(Indicator_b, set.Position.X, set.Position.Z, set.Position.Y);
                     MarkBaitTether(Indicator_b, 4);
                 }
@@ -235,6 +241,9 @@ namespace SplatoonScriptsOfficial.Duties.Shadowbringers
                 {
                     SetElementPosition(Indicator_a, set.Position.X, set.Position.Z, set.Position.Y);
                     MarkBaitTether(Indicator_a, 5);
+                }
+                if (BlastCount == 10)
+                {
                     SetElementPosition(Indicator_b, set.Position.X, set.Position.Z, set.Position.Y);
                     MarkBaitTether(Indicator_b, 6);
                 }
@@ -243,6 +252,9 @@ namespace SplatoonScriptsOfficial.Duties.Shadowbringers
                 {
                     SetElementPosition(Indicator_a, set.Position.X, set.Position.Z, set.Position.Y);
                     MarkBaitTether(Indicator_a, 7);
+                }
+                if (BlastCount == 12)
+                {
                     SetElementPosition(Indicator_b, set.Position.X, set.Position.Z, set.Position.Y);
                     MarkBaitTether(Indicator_b, 8);
                 }
